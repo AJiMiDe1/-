@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/firstFragment">
+
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.example.syydnrycx.sqlitelogin.Fragment.FirstFragment"
+        android:label="首页"
+        tools:layout="@layout/first_fragment" />
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.example.syydnrycx.sqlitelogin.Fragment.SecondFragment"
+        android:label="发现"
+        tools:layout="@layout/second_fragment" />
+    <fragment
+        android:id="@+id/thirdFragment"
+        android:name="com.example.syydnrycx.sqlitelogin.Fragment.ThirdFragment"
+        android:label="消息"
+        tools:layout="@layout/third_fragment" />
+    <fragment
+        android:id="@+id/fourthFragment"
+        android:name="com.example.syydnrycx.sqlitelogin.Fragment.FourthFragment"
+        android:label="我的"
+        tools:layout="@layout/fourth_fragment" />
+</navigation>
